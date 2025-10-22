@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+    <label for="imie">Imie:
+    <input type="text" id="imie" name="imie">
+    <br><br><br>
+    <label for="email">E-mail:
+    <input type="email" id="email" name="email" required>
+    <br><br><br>
+    <input type="radio" name="plec" value="kobieta" required checked> Kobieta
+    <input type="radio" name="plec" value="mezczyzna" required> Mężczyzna
+    <br><br><br>
+    <input type="checkbox" required checked name="jeden" value="jeden"> Jeden
+    <br>
+    <input type="checkbox" name="dwa" value="dwa"> Dwa
+    <br><br><br>
+        <label for="gity">Wybierz gita:
+        <select name="gity" id="gity" required>
+        <option value="" disabled selected>--Wybierz--</option>
+        <option value="hubert">hubert</option>
+        <option value="michal">michal</option>
+        <option value="cyprian">cyprian</option>
+        <option value="dawid">dawid</option>
+        </select>
+        <br><br><br> 
+        <input type="submit" value="Wyślij">
+        <input type="reset" value="reset">
+    </form>
+</body>
+</html>
